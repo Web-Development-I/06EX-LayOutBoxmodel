@@ -25,11 +25,11 @@ Eindresultaat:
 ### opdracht02
 - Open de map opdracht02.         
 
-- Creëer een nieuwe webpagina **02_box_model.html**. Plaats in de webpagina twee div-elementen. Eén met  id="box1" en één met id="box2".
+- Creëer een nieuwe webpagina **index.html**. Plaats in de webpagina twee div-elementen. Eén met  id="box1" en één met id="box2".
 
 - Plaats in de eerste div de tekst "Ik ben het eerste div-element" en plaats in de tweede div Lorem Ipsum-tekst.
 
-- Maak in de css-map een file **02_box_model.css**, link deze aan je webpagina en voeg CSS-code toe zodat *box1* een oranje rand krijgt met een breedte van 5 pixels en *box2* een blauwe rand met een breedte van eveneens 5 pixels.
+- Link **style.css** aan je webpagina en voeg CSS-code toe zodat *box1* een oranje rand krijgt met een breedte van 5 pixels en *box2* een blauwe rand met een breedte van eveneens 5 pixels.
 
 Te bekomen resultaat:
 
