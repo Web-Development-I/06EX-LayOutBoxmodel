@@ -74,16 +74,9 @@ Waarom heeft het instellen van deze bovenmarge geen effect?
   - de tweede paragraaf een 'lightblue' achtergrondkleur en een 'darkblue' rand van 6 pixels breed krijgt.
   - de derde en vierde paragraaf worden weergegeven met een rode linkerrand van 6 pixels breed en een 'lightpink' achtergrondkeur. 
 
-- Voor de laatste paragraaf zijn onderstaande vier css-declaraties ingesteld die zorgen voor vier randen van verschillende dikte. Vervang deze vier declaraties door één declaratie (shorthand notation).
-```
-    border-left-width: 25px;
-    border-right-width: 10px;
-    border-top-width: 40px;
-    border-bottom-width: 20px;
-```
 Te bekomen resultaat:
 
-![scherm borders](images/04_borders_800x600_b.png)
+![scherm borders](images/04_borders_800px.jpg)
 
 ### opdracht05
 
