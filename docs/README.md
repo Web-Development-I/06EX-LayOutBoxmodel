@@ -136,7 +136,9 @@ Open de map **oefening02-card-with-badges**.
 
 In deze oefening moet je CSS toevoegen aan het bestand **main.css** totdat je het onderstaande resultaat bekomt. Een beschrijving van de toe te voegen CSS vind je onder onderstaande screencast. Het is verplicht om in deze oefening gebruik te maken van de **CSS logical properties and values**. Je moet dus bijvoorbeeld in plaats van de `width` property de `inline-size` property  gebruiken.
 
-<img src="images/09_screencast.gif" alt="screencast" style="border: 1px solid grey">
+<kbd> 
+<img src="images/09_screencast.gif" alt="screencast">
+</kdb>
 
 - Werk in deze webpagina met `box-sizing: border-box` i.p.v met `box-sizing: content-box`.
 - Stel het lettertype voor de koppen in op **Lucida Serif** en gebruik voor de overige tekst **Lucida Sans**.
