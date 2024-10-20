@@ -2,12 +2,12 @@
 
 ## Oefening 1 - Boxmodel
 
-Open de map Oefening01-Boxmodel.
-Alle opdrachten (met uitzondering van opdracht02) in deze oefening bestaan uit een index.html en een style.css (in een map css). Link naar CSS is reeds toegevoegd in de HTML.    
+Open de **map oefening01-boxmodel**.
+Alle opdrachten (met uitzondering van opdracht02) in deze oefening bestaan uit een **index.html** en een **style.css** (in een map **css**). Link naar CSS is reeds toegevoegd in de HTML.    
 Maak bij alle oefeningen gebruik van de Developer tools van je browser om je resultaat te controleren.
 
 ### opdracht01
-- Open de map opdracht01.      
+Open de map **opdracht01**.      
 - Geef de div-elementen een boven- en ondermarge van 1em. De linker- en rechtermarge moet je niet aanpassen, deze blijven 0 pixels.    
 Maak gebruik van de 'shorthand notation'.<br>
 ***Opmerking*** De div-elementen zien er nu uit als p-elementen.
@@ -23,7 +23,7 @@ Eindresultaat:
   
 
 ### opdracht02
-- Open de map opdracht02.         
+- Open de map **opdracht02**.         
 
 - Creëer een nieuwe webpagina **index.html**. Plaats in de webpagina twee div-elementen. Eén met  id="box1" en één met id="box2".
 
@@ -56,7 +56,7 @@ De bovenstaande schermafbeelding is misschien toch niet wat we wensen?
   
 
 ### opdracht03
-- Open de map opdracht03.       
+- Open de map **opdracht03**.       
 
 - Boven en links van de twee div-elementen is er enige witruimte. Gebruik de Chrome Developers Tools om na te gaan van waar deze witruimte vandaan komt en verwijder vervolgens de witruimte. <br><!-- kleinere afbeelding -->
   <img src="images/03_scherm01_bc.png" alt="schermafbeelding" width="335">
@@ -67,7 +67,7 @@ Waarom heeft het instellen van deze bovenmarge geen effect?
 
 ### opdracht04
 
-- Open de map opdracht04.     
+- Open de map **opdracht04**.     
 
 - Definieer in de bijbehorende css-file de twee ontbrekende classes `alert-info` en `alert-danger` zodat 
 
@@ -80,9 +80,9 @@ Te bekomen resultaat:
 
 ### opdracht05
 
-- Open de map opdracht05.
+- Open de map **opdracht05**.
 - Geef het main-element een breedte van 80% en centreer het element.
-- Zorg ervoor dat het main-element nooit breder wordt dan 838 pixels.
+- Zorg ervoor dat het main-element nooit breder wordt dan 840 pixels.
 
 Te bekomen resultaat bij een schermresolutie van 800x600:
 
@@ -94,9 +94,9 @@ Te bekomen resultaat bij een schermresolutie van 1200x800:
 
 ### opdracht06
 
-- Open de map opdracht06.
+- Open de map **opdracht06**.
 - Voeg verticale schuifbalken toe aan beide articles (zie schermafbeelding hieronder).
-- Voeg links en rechts van de teksten in de article-elementen wat witruimte toe. De afstand tussen de tekst en linker/rechterrand van de article-elementen moet 0,5 rem zijn.
+- Voeg links en rechts van de teksten in de article-elementen witruimte toe. De afstand tussen de tekst en linker/rechterrand van de article-elementen moet 0,5 rem zijn.
 - Voeg 1 rem witruimte toe tussen de twee kaders (articles).
 
 Te bekomen resultaat:
@@ -105,7 +105,7 @@ Te bekomen resultaat:
 
 ### opdracht07
 
-- Open de map opdracht07.
+- Open de map **opdracht07**.
   
   ![scherm01](images/07_box-sizing01_800x600_b.png)
 
@@ -113,7 +113,7 @@ Te bekomen resultaat:
 
 ### opdracht08
 
-- Open de map opdracht08.
+- Open de map **opdracht08**.
 
 ![scherm01](images/08_display01_800x600_b.png)
 
@@ -130,45 +130,32 @@ Verberg het tweede span-element volledig, nu mag er dus geen witruimte in de pla
 - Hoe breed zal elk span-element worden als we de css-eigenschap `display` instellen op `block`?<br>
 Voer dit effectief uit en controleer of je antwoord juist was.
 
-## Oefening 2 - Werelddelen
+## Oefening 2 - Card with badges
 
-- Open de map **Oefening02-werelddelen**.
+Open de map **oefening02-card-with-badges**.
 
-In deze oefening moet je het navigatiemenu in **index.html** opmaken met CSS.
+In deze oefening moet je CSS toevoegen aan het bestand **main.css** totdat je het onderstaande resultaat bekomt. Een beschrijving van de toe te voegen CSS vind je onder onderstaande screencast. Het is verplicht om in deze oefening gebruik te maken van de **CSS logical properties and values**. Je moet dus bijvoorbeeld in plaats van de `width` property de `inline-size` property  gebruiken.
 
-Uiteindelijk te bekomen resultaat:
+<img src="images/09_screencast.gif" alt="screencast" style="border: 1px solid grey">
 
-![scherm01](images/08_wereldeel01.png)
-
-In CSS is de beste manier om li-elementen in een nav-element naast elkaar te plaatsen, gebruikmaken van Flex. Daar we Flex nog niet gezien hebben in de lessen zullen we momenteel een andere werkwijze gebruiken, die je ook nog op veel websites ziet.
-
-Voer onderstaande opdrachten uit om het navigatie-menu op te maken.
-
-**Navigatiemenu:**
-
-- Wat is de standaardwaarde van de CSS property **<code>display</code>** voor li-elementen?<br>
-Plaats de li-elementen in het nav-element naast elkaar door er inline elementen van te maken, m.a.w. stel **<code>display</code>** in op **<code>inline</code>**.
-- Stel vervolgens de breedte van de li-elementen in op 170 pixels.
-  Waarom heeft de breedte instellen geen effect?
-- Stel voor de li-elementen **<code>display</code>** in op **<code>inline-block</code>**. De li-elementen blijven hierdoor inline elementen, maar hebben toch ook block-eigenschappen.
-- Stel voor de hyperlinks:
-  - de lettergrootte in op 1,2 em
-  - de letterkleur in op \#6789ab
-  - een zwarte rand in van 1 pixel 
-- De hyperlinks in de nav zijn momenteel inline elementen. Maak hiervan block elementen (technische opmerking: de reden dat er na elke hyperlink hierdoor geen nieuwe regel zal genomen worden is omdat de display:inline-block ingesteld op de li-elementen, een nieuwe Block Formatting Context (BFC) genereert).
-  De a-elementen worden nu even breed als de li-elementen omdat block elementen steeds de volledige breedte van hun parent innemen. 
-- Merk op dat er enige witruimte is tussen de verschillende li-boxen. Dit is de spatie die tussen de li-elementen staat. Controleer eventueel nog eens met de developer tools dat de li-elementen inderdaad geen padding en margin hebben en dat ook de a-elementen geen margin hebben.
-- Geef de a-elementen:
-  - 5 pixels padding
-  - centreer de teksten
-  - border met afgeronde hoeken
-- De hyperlinks mogen enkel onderlijnd worden weergegeven als je er met de muis over beweegt.
-- Verwijder padding en margin op het ul-element.
-
-**Pagina layout:**
-
-- Geef header, nav en main een vaste breedte van 1080 pixels en centreer de elementen.      
-
-**Schaduw text:**
-- Geef de hoofdtitel een grijze schaduw.
-![scherm01](images/08_wereldeel02.png)
+- Werk in deze webpagina met `box-sizing: border-box` i.p.v met `box-sizing: content-box`.
+- Stel het lettertype voor de koppen in op **Lucida Serif** en gebruik voor de overige tekst **Lucida Sans**.
+- Stel voor het h1-element een grijze tekstschaduw in (naar keuze).
+- Stel de regelhoogte voor de webpagina in op 1,3.
+- Verwijder de marges bij het body-element en stel de lettergrootte in op 18 pixels.
+- Het container-element mag maximaal 960 pixels breed zijn en heeft steeds minimum 24 pixels linker- en rechtermarge.
+- Voor het div-element met class **profile-card** is:
+  - de linker- en rechtermarge gelijk aan 100 pixels
+  - er een licht afgeronde rand van 1 pixel breed met een donkergrijze kleur 
+  - de afstand tussen de tekst en de rand 20 pixels
+  - alle tekst gecentreerd
+- Voor het div-element met class **card-title** is:
+  - de lettergrootte 1,5 rem.
+  - er een vet lettertype gebruikt met een gewicht van 500
+  - de ondermarge ingesteld op 0,67 rem
+- De vijf badges HTML, CSS, JavaScript, React en Node.js zijn licht afgerond en hebben verder de volgende opmaak:
+  - de tekstkleur is \#333 en de achtergrondkleur is \#f0f0f0
+  - de boven- en onderpadding van deze elementen is 7 pixels
+  - de linker- en rechterpadding is 15 pixels 
+  - de marges zijn ingesteld op 5 pixels
+- Wanneer je met de muis beweegt over een badge dan wordt de muiscursor een handje en wordt de achtergrondkleur van de badge gewijzigd in \#ddd.
