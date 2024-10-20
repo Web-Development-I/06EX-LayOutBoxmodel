@@ -138,7 +138,7 @@ In deze oefening moet je CSS toevoegen aan het bestand **main.css** totdat je he
 
 <kbd> 
 <img src="images/09_screencast.gif" alt="screencast">
-</kdb>
+</kbd>
 
 - Werk in deze webpagina met `box-sizing: border-box` i.p.v met `box-sizing: content-box`.
 - Stel het lettertype voor de koppen in op **Lucida Serif** en gebruik voor de overige tekst **Lucida Sans**.
