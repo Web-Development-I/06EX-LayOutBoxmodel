@@ -145,7 +145,7 @@ In deze oefening moet je CSS toevoegen aan het bestand **main.css** totdat je he
 - Stel voor het h1-element een grijze tekstschaduw in (naar keuze).
 - Stel de regelhoogte voor de webpagina in op 1,3.
 - Verwijder de marges bij het body-element en stel de lettergrootte in op 18 pixels.
-- Het container-element mag maximaal 960 pixels breed zijn en heeft steeds minimum 24 pixels linker- en rechtermarge.
+- Het container-element mag maximaal 960 pixels breed zijn, moet gecentreerd zijn en heeft steeds minimum 24 pixels linker- en rechtermarge.
 - Voor het div-element met class **profile-card** is:
   - de linker- en rechtermarge gelijk aan 100 pixels
   - er een licht afgeronde rand van 1 pixel breed met een donkergrijze kleur 
